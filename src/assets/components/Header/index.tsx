@@ -16,7 +16,7 @@ function Header() {
           <a>Início</a>
           <a href="#servicos">Serviços</a>
           <a href="#fotos">Fotos</a>
-          <img src="/public/image/logo_cg.jpg" alt="logo do buffet" />
+          <img src="/image/logo_cg.jpg" alt="logo do buffet" />
           <a href="#espaco">Espaço</a>
           <a href="#nos">Sobre nós</a>
           <a href="#depoimentos">Depoimentos</a>
