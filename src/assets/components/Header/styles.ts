@@ -51,7 +51,7 @@ export const PhotoFront = styled(motion.div)`
   font-size: 50px;
   color: white;
   height: 89vh;
-  background-image: url("/public/image/fundo.png");
+  background-image: url("/image/fundo.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
