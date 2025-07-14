@@ -1,69 +1,110 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# LADING_PAGE_BUFFET
 
-Currently, two official plugins are available:
+_Transform Ideas into Stunning Digital Experiences_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Last Commit](https://img.shields.io/badge/last%20commit-today-brightgreen)
+![TypeScript](https://img.shields.io/badge/typescript-93.8%25-blue)
+![Languages](https://img.shields.io/badge/languages-3-informational)
 
-## Expanding the ESLint configuration
+## 🚀 Built with the tools and technologies:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+![JSON](https://img.shields.io/badge/-JSON-informational?style=flat)
+![Markdown](https://img.shields.io/badge/-Markdown-informational?style=flat)
+![npm](https://img.shields.io/badge/-npm-red?style=flat)
+![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat)
+![React](https://img.shields.io/badge/-React-blue?style=flat)
+![TypeScript](https://img.shields.io/badge/-TypeScript-blue?style=flat)
+![Vite](https://img.shields.io/badge/-Vite-purple?style=flat)
+![ESLint](https://img.shields.io/badge/-ESLint-informational?style=flat)
+![Swiper](https://img.shields.io/badge/-Swiper-orange?style=flat)
+![styled-components](https://img.shields.io/badge/-styled--components-pink?style=flat)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 📚 Table of Contents
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- [Overview](#overview)
+- [Why lading_page_buffet?](#why-lading_page_buffet)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Testing](#testing)
+- [License](#license)
+- [Author](#author)
+
+---
+
+## 📖 Overview
+
+**lading_page_buffet** is a developer-focused toolkit that simplifies building React landing pages with Vite, TypeScript, and ESLint. It offers a modern, scalable architecture designed for speed, quality, and maintainability.
+
+---
+
+## ❓ Why lading_page_buffet?
+
+This project streamlines the development of React applications by integrating essential tools and configurations. The core features include:
+
+- ⚡ **Vite Optimization**: Fast build times and hot module replacement for a smooth development experience.
+- ✅ **TypeScript Safety**: Strict, modern JavaScript support with modular configuration for scalable solutions.
+- 🎨 **Styling & Animation**: Seamless integration of styled-components and Swiper for engaging UIs.
+- 🧹 **Code Quality**: ESLint setup enforcing best practices and consistent code standards.
+- 🏗️ **Project Structure**: Clear entry points and HTML setup for rapid development and deployment.
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+This project requires the following dependencies:
+
+- **Programming Language**: TypeScript
+- **Package Manager**: npm
+
+### 📦 Installation
+
+Clone and install:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Dylan-208/lading_page_buffet
+
+# 2. Navigate to the project directory
+cd lading_page_buffet
+
+# 3. Install the dependencies
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### ▶️ Usage
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Execute o projeto:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm start
 ```
+
+### 🧪 Testing
+
+Execute a suíte de testes:
+
+```bash
+npm test
+```
+
+> Obs: Este projeto usa `vitest` ou outro test framework (adicione o nome real se desejar).
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👤 Author
+
+Feito com 💛 por **Dylan Santos**  
+GitHub: [@Dylan-208](https://github.com/Dylan-208)
