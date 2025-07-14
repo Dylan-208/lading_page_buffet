@@ -80,7 +80,7 @@ npm install
 
 ### ▶️ Usage
 
-Execute o projeto:
+Run the project:
 
 ```bash
 npm start
@@ -88,13 +88,19 @@ npm start
 
 ### 🧪 Testing
 
-Execute a suíte de testes:
+Run the test suite:
 
 ```bash
 npm test
 ```
 
-> Obs: Este projeto usa `vitest` ou outro test framework (adicione o nome real se desejar).
+> Note: This project uses `vitest` or another test framework (add the actual name if applicable).
+
+---
+
+## 🌐 Live Demo
+
+Acesse o projeto online: [lading_page_buffet](https://lading-page-buffet-git-main-dylan-santos-projects.vercel.app/)
 
 ---
 
@@ -106,5 +112,5 @@ This project is licensed under the MIT License.
 
 ## 👤 Author
 
-Feito com 💛 por **Dylan Santos**  
+Made with 💛 by **Dylan Santos**  
 GitHub: [@Dylan-208](https://github.com/Dylan-208)
